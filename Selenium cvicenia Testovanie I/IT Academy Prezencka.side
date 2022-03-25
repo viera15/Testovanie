@@ -1,0 +1,270 @@
+{
+  "id": "5237cb0a-9cc6-4e42-aa67-bf4fd87a35ed",
+  "version": "2.0",
+  "name": "IT Academy Prezencka",
+  "url": "https://www.it-academy.sk",
+  "tests": [{
+    "id": "46c41971-9d69-4bbc-bef0-48b4d1e49bd8",
+    "name": "TC01_IT_Academy_Prezencka",
+    "commands": [{
+      "id": "46f65124-46ce-4ad5-876c-a82d36ad5c10",
+      "comment": "",
+      "command": "open",
+      "target": "/prezencka/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42c981f9-4295-46a2-be7c-e1ab80eca19d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "816x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31eb586-1cf9-42bb-919a-b9a7021fd6eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][title]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][title]", "name"],
+        ["css=.titul", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][title]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c529a67a-d686-4b2c-b35b-cbd6042316cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][title]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][title]", "name"],
+        ["css=.titul", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][title]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "mgr"
+    }, {
+      "id": "ae737e23-87c9-40f7-9941-719503205a62",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Olívia"
+    }, {
+      "id": "0cae1180-4f5e-46e0-9f96-9e3538ba24f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "Testovacia"
+    }, {
+      "id": "984cdefa-1513-4f66-ae37-6bb1411077f0",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][suffix]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][suffix]", "name"],
+        ["css=.suffix", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][suffix]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "CSc."
+    }, {
+      "id": "a1656018-5248-44b6-a9b7-08a869d7c046",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-trigger",
+      "targets": [
+        ["css=.ui-datepicker-trigger", "css:finder"],
+        ["xpath=//img[@alt='...']", "xpath:img"],
+        ["xpath=//td[@id='birthdate']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b7b83f-c4c5-4dce-9049-c76cf2c623ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-year",
+      "targets": [
+        ["css=.ui-datepicker-year", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/div/div/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb246c5-fd8d-4a10-9c99-b38c041cce54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=13",
+      "targets": [
+        ["linkText=13", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'13')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[3]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//tr[3]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4fd65ce-385d-4bb4-8c85-81da556e74b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39aa27ef-fb11-40d6-8084-4306af1ae3c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Bratislava"
+    }, {
+      "id": "54701b46-6444-4c05-9978-f5a37db934bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "testovanie15@gmail.com"
+    }, {
+      "id": "64fb023a-3bad-46d2-a3c3-14baf8ad6de4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": "BPF3d"
+    }, {
+      "id": "3a5ce636-fc01-4a02-8b14-482202900a65",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb8d43ff-c7e3-47ff-b7f3-5b96e3bde34d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button",
+      "targets": [
+        ["css=.ui-button", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[10]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "017fa6c5-048d-4eba-8d46-d51a06a1f1fe",
+    "name": "TC02_IT_Academy_Newsletter",
+    "commands": [{
+      "id": "acb5b58e-94bf-4760-9ad9-6642c9434d3d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "697d2145-956b-417b-9bd2-f09eded2b164",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "816x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14cf6025-075b-4cf8-9731-45e512bfd887",
+      "comment": "",
+      "command": "click",
+      "target": "name=subscribe_input",
+      "targets": [
+        ["name=subscribe_input", "name"],
+        ["css=.subscribe_input", "css:finder"],
+        ["xpath=//input[@name='subscribe_input']", "xpath:attributes"],
+        ["xpath=//div[@id='subscribe_input']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb17351-2c3c-4af8-a990-b92b5c4d69e4",
+      "comment": "",
+      "command": "type",
+      "target": "name=subscribe_input",
+      "targets": [
+        ["name=subscribe_input", "name"],
+        ["css=.subscribe_input", "css:finder"],
+        ["xpath=//input[@name='subscribe_input']", "xpath:attributes"],
+        ["xpath=//div[@id='subscribe_input']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "testovanie15@gmail.com"
+    }, {
+      "id": "d4961cb8-0c84-4e32-a845-7d51bf353241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subscribe_submit",
+      "targets": [
+        ["css=.subscribe_submit", "css:finder"],
+        ["xpath=//input[@value='ODOBERAŤ']", "xpath:attributes"],
+        ["xpath=//div[@id='subscribe_button']/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c43a1245-f21c-49e4-9364-9e92b288d89d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["46c41971-9d69-4bbc-bef0-48b4d1e49bd8"]
+  }],
+  "urls": ["https://www.it-academy.sk/"],
+  "plugins": []
+}

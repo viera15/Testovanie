@@ -1,0 +1,90 @@
+{
+  "id": "2c02619b-3dc9-4240-86fe-60bf2898559a",
+  "version": "2.0",
+  "name": "Google Selenium",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "56f4633f-a2da-409f-adf3-7d0e652b9a96",
+    "name": "TC01_Stiahnutie_Selenium_IDE",
+    "commands": [{
+      "id": "8cea7938-6d76-4390-9266-fc1d7edf054d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2eb614b-b46e-479a-b314-9408b08d02e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "816x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da8ba5d8-02b7-49fe-a86e-18416eabff61",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sele"
+    }, {
+      "id": "39f2f125-897c-42e7-897b-ae4c2a7abc75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd b",
+      "targets": [
+        ["css=.WggQGd b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'nium ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b85444-c799-41c2-a9ec-b1b3561873d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5059327-38d5-4367-b934-0e6b9a800ba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) .pluginWrapper:nth-child(1) font > font",
+      "targets": [
+        ["css=.section:nth-child(2) .pluginWrapper:nth-child(1) font > font", "css:finder"],
+        ["xpath=//div/a/font/font", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6662",
+      "windowTimeout": 2000
+    }, {
+      "id": "13545f2b-d25e-42fb-8b74-7aded2a0ecf8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6662}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fa2c0d84-5ff8-47bd-bbf0-7906cc083bde",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}

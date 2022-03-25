@@ -1,0 +1,113 @@
+{
+  "id": "f32a3e54-2c44-4ccc-a305-0a0b16e795e8",
+  "version": "2.0",
+  "name": "Topky Horoskop na Dnes",
+  "url": "https://www.topky.sk",
+  "tests": [{
+    "id": "972a0834-5383-4001-b4df-10499ce58b9d",
+    "name": "TC01-Topky Horoskop Mesacny",
+    "commands": [{
+      "id": "a0da4a45-3404-42f9-b1ba-56f4d982ab22",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02cad79-91c1-4427-97d7-75f4a7a94a31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63bbbd1a-154e-436e-ac95-220942fef723",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sfHover li:nth-child(5) span",
+      "targets": [
+        ["css=.sfHover li:nth-child(5) span", "css:finder"],
+        ["xpath=//ul[@id='main-nav']/li/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaujímavosti')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4d7450-e0c0-4d83-a85d-52a57c3f6453",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sfHover li:nth-child(5) span",
+      "targets": [
+        ["css=.sfHover li:nth-child(5) span", "css:finder"],
+        ["xpath=//ul[@id='main-nav']/li/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaujímavosti')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89eb2098-a9e1-440d-98ee-974e50ec37ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover:nth-child(7) span",
+      "targets": [
+        ["css=.sfHover:nth-child(7) span", "css:finder"],
+        ["xpath=//ul[@id='main-nav']/li[8]/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Horoskop 2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e144cfed-d0a3-4f96-9a7c-51c2d7de5c85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ryby",
+      "targets": [
+        ["linkText=Ryby", "linkText"],
+        ["css=li:nth-child(12) h2 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ryby')])[8]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[2]/div/div/ul/li[12]/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/horoskop/rocny/12/ryby')])[3]", "xpath:href"],
+        ["xpath=//li[12]/div/h2/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35c3a52-8240-4838-84e9-a9184ddf387e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mesačný horoskop",
+      "targets": [
+        ["linkText=Mesačný horoskop", "linkText"],
+        ["css=tr:nth-child(4) strong > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mesačný horoskop')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[2]/div/table/tbody/tr[4]/td/strong/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/horoskop/mesacny')])[14]", "xpath:href"],
+        ["xpath=//tr[4]/td/strong/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23ccaa8c-b520-4702-b209-b8f19ce63bd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ryby",
+      "targets": [
+        ["linkText=Ryby", "linkText"],
+        ["css=li:nth-child(12) h2 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ryby')])[8]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[2]/div/div/ul/li[12]/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/horoskop/mesacny/12/ryby')])[3]", "xpath:href"],
+        ["xpath=//li[12]/div/h2/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "23861312-f0be-4c8d-9096-4fe9936b18b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["972a0834-5383-4001-b4df-10499ce58b9d"]
+  }],
+  "urls": ["https://www.topky.sk/"],
+  "plugins": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2924771f-ebd9-47b0-ac96-95d6bbe27159",
+  "version": "2.0",
+  "name": "k",
+  "url": "https://www.profesia.sk/",
+  "tests": [{
+    "id": "462ccdc4-ba57-40e0-86f4-b7acaa0b936b",
+    "name": "tc01",
+    "commands": [{
+      "id": "91147c66-5160-4e40-8774-e858f82e6861",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.profesia.sk/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb6f6594-95c2-4c35-a71b-227fcf39c314",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["462ccdc4-ba57-40e0-86f4-b7acaa0b936b"]
+  }],
+  "urls": ["https://www.profesia.sk/"],
+  "plugins": []
+}
