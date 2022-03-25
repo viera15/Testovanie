@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>TS_01_Zakladne_prikazy</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_01_Vyhladanie_vypisu_ORSR</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.orsr.sk/<datalist><option>https://www.orsr.sk/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=obchodného mena<datalist><option>link=obchodného mena</option><option>xpath=//a[contains(text(),'obchodného mena')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Návod na používanie ORI'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='identifikačného čísla'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='sídla'])[1]/preceding::a[2]</option><option>xpath=//a[contains(@href, 'search_subjekt.asp')]</option><option>xpath=//a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=OBMENO<datalist><option>name=OBMENO</option><option>xpath=//input[@name='OBMENO']</option><option>xpath=//input</option><option>css=input[name="OBMENO"]</option></datalist></td><td>alza</td>
+</tr>
+<tr><td>click</td><td>xpath=//input[@value=' Hľadaj ']<datalist><option>xpath=//input[@value=' Hľadaj ']</option><option>xpath=//table[2]/tbody/tr/td/input</option><option>css=input.but</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Aktuálny<datalist><option>link=Aktuálny</option><option>xpath=//a[contains(text(),'Aktuálny')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ALZA s.r.o.'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zbierka listín'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Úplný'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ALZA TRANS, s. r. o.'])[1]/preceding::a[3]</option><option>xpath=//*/text()[normalize-space(.)='Aktuálny']/parent::*</option><option>xpath=//a[contains(@href, 'vypis.asp?ID=194514&amp;SID=3&amp;P=0')]</option><option>xpath=//td[3]/div/a</option><option>css=div.bmk &gt; a.link</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

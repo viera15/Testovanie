@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>TS_02_Spokojna_macka</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_01_Otvorenie_webstranky</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://spokojnamacka.sk/<datalist><option>https://spokojnamacka.sk/</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_02_Rezervacny_formular_spravne</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.spokojnamacka.sk<datalist><option>https://www.spokojnamacka.sk</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=nf-field-5<datalist><option>id=nf-field-5</option><option>name=nf-field-5</option><option>xpath=//input[@id='nf-field-5']</option><option>xpath=//div[@id='nf-field-5-wrap']/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#nf-field-5</option></datalist></td><td>Mačička Ružová</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-6<datalist><option>id=nf-field-6</option><option>name=email</option><option>xpath=//input[@id='nf-field-6']</option><option>xpath=//div[@id='nf-field-6-wrap']/div[2]/input</option><option>xpath=//nf-field[2]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-6</option></datalist></td><td>testovanie15@gmail.com</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-7<datalist><option>id=nf-field-7</option><option>name=phone</option><option>xpath=//input[@id='nf-field-7']</option><option>xpath=//div[@id='nf-field-7-wrap']/div[2]/input</option><option>xpath=//nf-field[3]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-7</option></datalist></td><td>00421987456</td>
+</tr>
+<tr><td>type</td><td>xpath=//div[@id='nf-field-8-wrap']/div[2]/div/input[2]<datalist><option>xpath=//div[@id='nf-field-8-wrap']/div[2]/div/input[2]</option><option>xpath=//input[2]</option><option>css=input.ninja-forms-field.nf-element.datepicker.pikaday__display.pikaday__display--pikaday.form-control.input.active</option></datalist></td><td>30.1.2022</td>
+</tr>
+<tr><td>click</td><td>id=nf-label-class-field-9-0<datalist><option>id=nf-label-class-field-9-0</option><option>xpath=//label[@id='nf-label-class-field-9-0']</option><option>xpath=//div[@id='nf-field-9-wrap']/div[2]/ul/li/label</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Čas prichodu / check-in time'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='This is a required field.'])[4]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::label[2]</option><option>xpath=//*/text()[normalize-space(.)='7:00 - 9:00']/parent::*</option><option>xpath=//li/label</option><option>css=#nf-label-class-field-9-0</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=//div[@id='nf-field-10-wrap']/div[2]/div/input[2]<datalist><option>xpath=//div[@id='nf-field-10-wrap']/div[2]/div/input[2]</option><option>xpath=//nf-field[6]/div/div[2]/div/div[2]/div/input[2]</option><option>css=input.ninja-forms-field.nf-element.datepicker.pikaday__display.pikaday__display--pikaday.form-control.input.active</option></datalist></td><td>2.2.2022</td>
+</tr>
+<tr><td>click</td><td>id=nf-label-class-field-11-1<datalist><option>id=nf-label-class-field-11-1</option><option>xpath=//label[@id='nf-label-class-field-11-1']</option><option>xpath=//div[@id='nf-field-11-wrap']/div[2]/ul/li[2]/label</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::label[1]</option><option>xpath=//nf-field[7]/div/div[2]/div/div[2]/ul/li[2]/label</option><option>css=#nf-label-class-field-11-1</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=nf-field-12<datalist><option>id=nf-field-12</option><option>name=nf-field-12</option><option>xpath=//input[@id='nf-field-12']</option><option>xpath=//div[@id='nf-field-12-wrap']/div[2]/input</option><option>xpath=//nf-field[8]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-12</option></datalist></td><td>1</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-13<datalist><option>id=nf-field-13</option><option>name=nf-field-13</option><option>xpath=//textarea[@id='nf-field-13']</option><option>xpath=//div[@id='nf-field-13-wrap']/div[2]/textarea</option><option>xpath=//textarea</option><option>css=#nf-field-13</option></datalist></td><td>Skúška skúška skúška</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_03_Rezervacny_formular_nespravne_udaje</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://spokojnamacka.sk/<datalist><option>https://spokojnamacka.sk/</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=nf-field-5<datalist><option>id=nf-field-5</option><option>name=nf-field-5</option><option>xpath=//input[@id='nf-field-5']</option><option>xpath=//div[@id='nf-field-5-wrap']/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#nf-field-5</option></datalist></td><td>Mači0čka R4užová</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-6<datalist><option>id=nf-field-6</option><option>name=email</option><option>xpath=//input[@id='nf-field-6']</option><option>xpath=//div[@id='nf-field-6-wrap']/div[2]/input</option><option>xpath=//nf-field[2]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-6</option></datalist></td><td>testovanie15gmail.com</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-7<datalist><option>id=nf-field-7</option><option>name=phone</option><option>xpath=//input[@id='nf-field-7']</option><option>xpath=//div[@id='nf-field-7-wrap']/div[2]/input</option><option>xpath=//nf-field[3]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-7</option></datalist></td><td>00421A9874B56</td>
+</tr>
+<tr><td>type</td><td>xpath=//div[@id='nf-field-8-wrap']/div[2]/div/input[2]<datalist><option>xpath=//div[@id='nf-field-8-wrap']/div[2]/div/input[2]</option><option>xpath=//input[2]</option><option>css=input.ninja-forms-field.nf-element.datepicker.pikaday__display.pikaday__display--pikaday.form-control.input.active</option></datalist></td><td>30.1.2022</td>
+</tr>
+<tr><td>click</td><td>id=nf-label-class-field-9-0<datalist><option>id=nf-label-class-field-9-0</option><option>xpath=//label[@id='nf-label-class-field-9-0']</option><option>xpath=//div[@id='nf-field-9-wrap']/div[2]/ul/li/label</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Čas prichodu / check-in time'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='This is a required field.'])[4]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::label[2]</option><option>xpath=//*/text()[normalize-space(.)='7:00 - 9:00']/parent::*</option><option>xpath=//li/label</option><option>css=#nf-label-class-field-9-0</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=//div[@id='nf-field-10-wrap']/div[2]/div/input[2]<datalist><option>xpath=//div[@id='nf-field-10-wrap']/div[2]/div/input[2]</option><option>xpath=//nf-field[6]/div/div[2]/div/div[2]/div/input[2]</option><option>css=input.ninja-forms-field.nf-element.datepicker.pikaday__display.pikaday__display--pikaday.form-control.input.active</option></datalist></td><td>25.1.2022</td>
+</tr>
+<tr><td>click</td><td>id=nf-label-class-field-11-1<datalist><option>id=nf-label-class-field-11-1</option><option>xpath=//label[@id='nf-label-class-field-11-1']</option><option>xpath=//div[@id='nf-field-11-wrap']/div[2]/ul/li[2]/label</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::label[1]</option><option>xpath=//nf-field[7]/div/div[2]/div/div[2]/ul/li[2]/label</option><option>css=#nf-label-class-field-11-1</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=nf-field-12<datalist><option>id=nf-field-12</option><option>name=nf-field-12</option><option>xpath=//input[@id='nf-field-12']</option><option>xpath=//div[@id='nf-field-12-wrap']/div[2]/input</option><option>xpath=//nf-field[8]/div/div[2]/div/div[2]/input</option><option>css=#nf-field-12</option></datalist></td><td>1</td>
+</tr>
+<tr><td>type</td><td>id=nf-field-13<datalist><option>id=nf-field-13</option><option>name=nf-field-13</option><option>xpath=//textarea[@id='nf-field-13']</option><option>xpath=//div[@id='nf-field-13-wrap']/div[2]/textarea</option><option>xpath=//textarea</option><option>css=#nf-field-13</option></datalist></td><td>Skúška skúška skúška</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_04_Overenie_telefonne_cislo_verify</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.spokojnamacka.sk<datalist><option>https://www.spokojnamacka.sk</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyElementPresent</td><td>link=+421 948 60 50 36<datalist><option>link=+421 948 60 50 36</option><option>xpath=//a[contains(text(),'+421 948 60 50 36')]</option><option>xpath=//div[@id='page-20']/div/figure/blockquote/p[2]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='English version'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hotel pre mačky'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chcete aby mačka bola :'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='v bezpečí'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='+421 948 60 50 36']/parent::*</option><option>xpath=//a[contains(@href, 'tel:+421 948 60 50 36')]</option><option>xpath=//p[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>link=+421 948 60 50 36<datalist><option>link=+421 948 60 50 36</option><option>xpath=//a[contains(text(),'+421 948 60 50 36')]</option><option>xpath=//div[@id='page-20']/div/figure/blockquote/p[2]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='English version'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hotel pre mačky'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Chcete aby mačka bola :'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='v bezpečí'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='+421 948 60 50 36']/parent::*</option><option>xpath=//a[contains(@href, 'tel:+421 948 60 50 36')]</option><option>xpath=//p[2]/a</option></datalist></td><td>+421 948 60 50 35</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_05_Overenie_KontaktMenu_asercia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.spokojnamacka.sk<datalist><option>https://www.spokojnamacka.sk</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Kontakt<datalist><option>link=Kontakt</option><option>xpath=//a[contains(text(),'Kontakt')]</option><option>xpath=//li[@id='menu-item-53']/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Odporúčania'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdravie'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Hotel pre mačky'])[1]/preceding::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='English version'])[1]/preceding::a[3]</option><option>xpath=//*/text()[normalize-space(.)='Kontakt']/parent::*</option><option>xpath=//a[contains(@href, 'https://spokojnamacka.sk/kontakt/')]</option><option>xpath=//li[6]/a</option><option>css=#menu-item-53 &gt; a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
